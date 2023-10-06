@@ -215,7 +215,7 @@
   }
   .reason-container{
     background-color: #d6d6da;
-    padding: 10px;
+    /* padding: 10px; */
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -249,9 +249,9 @@
     }
 
   } */
-  @media(max-width:900px){
+  @media(max-width:1250px){
          .reason-container-2{
-          margin-top:30px !important;
+          margin-top:25px !important;
           margin: auto;
          }
          
@@ -326,14 +326,16 @@
 .wo-text{
   font-size: 25px;
 }
-.wo-main{
-  padding-left: 10px;
-  padding-right: 10px;
-}
+
 .wo-main img{
   width: 160px;
   height: 250px;
 }
+.wo-main{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* responsive work start  */
 @media(max-width:700px){
   .wo-main img{
@@ -349,7 +351,9 @@
 }
 /* responsive end  */
 /* fashion work end  */
+
 /* men fashion start  */
+
 .men-main{
   padding-left: 10px;
   padding-right: 10px;
@@ -373,21 +377,21 @@
 }
 /* responsive end  */
 /* footer start  */
-/* footer start  */
+
 .footer-main{
   background-color: rgb(183, 178, 178);
 }
-/* .app-img{
+.app-img{
   width: 84px;
   height: 26px;
-  margin-top: 15px;
-} */
+  /* margin-top: 15px; */
+}
 .connect  i{
   font-size: 30px;
   
 }
 .connect{
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 /* .last-head{
   margin-left: 280px;
@@ -397,8 +401,8 @@
 }
 .end-footer{
   background-color: #ebebff;
-  height: 40px;
-  padding: 10px;
+  height: 50px;
+  padding: 12px;
 }
 /* responsive resgin */
 @media(max-width:750px){
@@ -420,10 +424,10 @@
   .connect  i{
     font-size: 15px;
   }
-  .connect-head{
+  .connect-head,.last-head{
     font-size: 10px;
   }
-  .play-img{
+  .play-img,.app-img{
     
       width: 60px;
       height: 20px;
