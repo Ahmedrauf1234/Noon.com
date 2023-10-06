@@ -202,8 +202,9 @@
   }
   .photo-gallery{
     /* display: flex; */
+    
     gap: 15px;
-    width: 400px;
+    width: 410px;
     height: 440px;
   }
   .photo-gallery{
@@ -216,6 +217,7 @@
   .reason-container{
     background-color: #d6d6da;
     /* padding: 10px; */
+    /* margin-top: 20px; */
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -226,6 +228,7 @@
     margin-left: 10px;
     width: 350px;
     height: 440px;
+   
   }
   .photo-gallery-2{
     /* display: flex; */
@@ -234,10 +237,13 @@
     margin-left: 10px;
     width: 410px;
     height: 440px;
+    
   }
 
   .reason-container-2{
     background-color: #f8f8f8 ;
+    
+      
     
   }
   /* responsive desgin start  */
